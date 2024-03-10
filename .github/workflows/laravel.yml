@@ -15,4 +15,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Deployment
-        run: ssh ubuntu@3.88.24.0 "php artisan migrate"
+        run: ssh ubuntu@54.81.51.120 "php artisan migrate"
